@@ -1,0 +1,9 @@
+spring:
+    jpa:
+        database-platform: com.mycompany.hibernate.SQLiteDialect
+        hibernate.ddl-auto: update
+    datasource:
+        url: jdbc:sqlite:sqlite/auth.db
+        username: admin
+        password: admin
+        driver-class-name: org.sqlite.JDBC
